@@ -10,11 +10,10 @@
             "email": "raphaelbsr@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
         "yiisoft/yii2": "~2.0.0",
-        "bower-asset/sweetalert2": "7.*",
-        "raphaelbsr/yii2-showloading": "*"
+        "bower-asset/sweetalert2": "~7.*",
+        "raphaelbsr/yii2-showloading": "~1.0.0"
     },
     "autoload": {
         "psr-4": {
