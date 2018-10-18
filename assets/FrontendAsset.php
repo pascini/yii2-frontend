@@ -19,6 +19,7 @@ class FrontendAsset extends AssetBundle {
     public $js = [
         'js/alerts.js',
         'js/app.js',
+        'js/bootstrap-notify.min.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',

@@ -2,7 +2,7 @@
     "name": "raphaelbsr/yii2-frontend",
     "description": "frontend",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","gii"],
+    "keywords": ["yii2", "extension", "gii"],
     "license": "MIT",
     "authors": [
         {
@@ -19,5 +19,8 @@
         "psr-4": {
             "raphaelbsr\\frontend\\": ""
         }
-    }
+    },
+    "ignore": [
+        ".github"
+    ]
 }
