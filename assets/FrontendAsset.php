@@ -13,7 +13,7 @@ class FrontendAsset extends AssetBundle {
 
 //    public $basePath = '@webroot';
 //    public $baseUrl = '@web';
-    public $sourcePath = '@vendor/raphaelbsr/yii2-frontend/assets/src';
+    public $sourcePath = '@vendor/pascini/yii2-frontend/assets/src';
     public $css = [
     ];
     public $js = [
@@ -24,7 +24,7 @@ class FrontendAsset extends AssetBundle {
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap4\BootstrapAsset',
-        'raphaelbsr\frontend\assets\SweetAlertAsset',
+        'pascini\frontend\assets\SweetAlertAsset',
         'raphaelbsr\showloading\ShowLoadingAsset',
     ];
 
