@@ -17,7 +17,7 @@ function notify(json) {
 function showMessage(json) {
 
     swal({
-        title: json.status ? 'Excelente' : 'Ops',
+        title: json.status ? 'Tudo certo' : 'Ops',
         html: json.status ? json.message : json.errors,
         type: json.status ? 'success' : 'error',
         //buttons : 'Ok',
@@ -26,7 +26,7 @@ function showMessage(json) {
 
 function showMessageCallback(json, callback, closeOnConfirm = true) {
     swal({
-        title: json.status ? 'Excelente' : 'Ops',
+        title: json.status ? 'Tudo certo' : 'Ops',
         html: json.status ? json.message : json.errors,
         //html: '<b>TAB PRECO</b>',
         type: json.status ? 'success' : 'error',
