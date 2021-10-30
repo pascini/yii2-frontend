@@ -1,6 +1,6 @@
 <?php
 
-namespace raphaelbsr\frontend\assets;
+namespace pascini\frontend\assets;
 
 class SweetAlertAsset extends \yii\web\AssetBundle {
     public $sourcePath = '@bower/sweetalert2/dist';    
