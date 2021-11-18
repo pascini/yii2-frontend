@@ -16,7 +16,7 @@
     ],
     "require": {
         "yiisoft/yii2": "~2.0.0",
-        "bower-asset/sweetalert2": "dev-master",
+        "bower-asset/sweetalert2": "~11.1.10",
         "raphaelbsr/yii2-showloading": "~1.0.0"
     },
     "autoload": {
